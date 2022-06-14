@@ -12,6 +12,9 @@ const port = process.env.PORT || 8000
 // Cretae folder
 if (!fs.existsSync('./public/file')) fs.mkdirSync('./public/file')
 
+const text = process.env.TEST_MSG
+console.log(text)
+
 function makeid(length) {
     let result = '';
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
