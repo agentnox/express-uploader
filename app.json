@@ -1,0 +1,7 @@
+{
+  "name": "MD_QR",
+  "description": "MD QR generator",
+  "repository": "https://github.com/agentnox/qamdiqr",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}
